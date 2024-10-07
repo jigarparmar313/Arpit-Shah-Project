@@ -1,0 +1,41 @@
+/* Applies background color to all classes starting with or containing 'imghvr-' */
+[class^='imghvr-'],
+[class*=' imghvr-'] {
+  background-color: rgba(0, 0, 0, 0.536) !important;
+}
+
+.image-bg {
+  background-color: black !important;
+}
+
+.figcaption-bg {
+  background-color: black !important;
+}
+
+.figcaption-padding {
+  padding: 30px !important;
+}
+
+.text-color {
+  color: #ffffff !important;
+}
+
+.border-color {
+  border-color: #ffffff !important;
+}
+
+.border-margin {
+  margin: 5px !important;
+}
+
+.border-width {
+  border-width: 4px !important;
+}
+
+.transition-duration {
+  transition-duration: 0.35s !important;
+}
+
+.shift-distance {
+  transform: translate(10px) !important;
+}

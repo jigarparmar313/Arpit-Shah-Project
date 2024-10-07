@@ -1,0 +1,37 @@
+.qlwapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .qlwapp-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .qlwapp-toggle {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 12px 24px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .qlwapp-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .qlwapp-text {
+    font-size: 18px;
+  }
+  
+  .qlwapp-close {
+    display: none; /* Customize based on your need */
+  }
+  

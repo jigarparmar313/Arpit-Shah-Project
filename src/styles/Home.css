@@ -1,0 +1,25 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .image-normal {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .image-container:hover .image-hover {
+    opacity: 1;
+  }
+  
+  .image-container:hover .image-normal {
+    opacity: 0;
+  }
+  
